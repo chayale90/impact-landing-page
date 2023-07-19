@@ -1,0 +1,93 @@
+:root {
+    --purple-main: #a05ce9;
+    --pink-main: #d867b6;
+    --yellow-main: #E9B116;
+    --purple: #9376E0;
+    --pink: #E893CF;
+    --pink1: #F3BCC8;
+    --yellow: #F6FFA6;
+    --blue-main: #002144;
+    --black: rgb(0, 0, 0);
+    --white: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background: #f9f0f6ed;
+}
+
+header {
+    min-height: 70px;
+    position: sticky ;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+header .container,
+header .row {
+    min-height: inherit;
+}
+header .row .nav  {
+margin-left: 15px;
+}
+
+header .nav li {
+    padding: 0 16px;
+    transition: 500ms;
+
+}
+
+header .nav li a {
+font-size: 2em;
+text-decoration: none;
+
+}
+
+
+/* header .nav li:hover {
+    transform: scale(1.1, 1.1);
+} */
+
+header .nav a {
+    text-decoration: none;
+    color: var(--purple);
+transition: 500ms;
+}
+
+header .nav a:hover {
+    color:var(--pink);
+    text-decoration: none;
+   background:transparent;
+}
+
+header .nav a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background:var(--pink);
+    transition: 1000ms;
+    margin: 0 auto;
+}
+
+
+/* במעבר עכבר יציג את הקו מתחת ללינק */
+header .nav a:hover::after {
+    width: 100%;
+}
+
+
+header .burger {
+    font-size: 3rem;
+    /* display: none; */
+    color: var(--purple);
+    cursor: pointer;
+}
