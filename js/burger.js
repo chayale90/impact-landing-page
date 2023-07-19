@@ -16,6 +16,7 @@ function burgerInit() {
   function openNav() {
     burger_btn.innerHTML = `<i class="fa fa-times x-icon" aria-hidden="true"></i>`;
     nav_open.style.display = "block";
+    burger_btn.style.fontSize = "2.5em";
     setTimeout(function () {
       nav_open.classList.add("nav_open");
     }, 100);
@@ -25,7 +26,7 @@ function burgerInit() {
   // Function to close the burger menu
   function closeNav() {
     nav_open.classList.remove("nav_open");
-    burger_btn.innerHTML = `<i class="fa fa-bars " aria-hidden="true"></i>`;
+    burger_btn.innerHTML = `<i class="fa fa-bars" aria-hidden="true"></i>`;
     setTimeout(function () {
       nav_open.style.display = "none";
     }, 600);

@@ -1,0 +1,22 @@
+.strip {
+   min-height: 400px;
+}
+
+.strip .container, .strip .container .row{
+    min-height: inherit;
+ }
+
+.strip .row h1{
+    /* color: var(--blue-main); */
+    color: #E9B116;
+}
+
+.strip .row span{
+    color: var(--blue-main);
+}
+
+.strip .row img{
+    border-radius: 50px;
+    border: 2px solid #e9b1167d;
+    margin-top: 10%;
+}
