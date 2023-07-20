@@ -4,6 +4,7 @@ header {
     top: 0;
     left: 0;
     z-index: 9999;
+    background: var(--bright-pink);
 }
 
 header .container,
