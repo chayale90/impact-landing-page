@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/header.css">
-    <link rel="stylesheet" href="/strip.css">
+    <link rel="stylesheet" href="/strip_video.css">
+    <link rel="stylesheet" href="/main.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <script defer src="js/burger.js"></script>
 </head>
@@ -21,8 +22,10 @@
         <div class="container">
             <div class="row justify-content-between m-0">
                 <div class="logo col align-items-center">
+                    <!-- <a href="#product"> -->
                     <img src="images/impact-logo.png" alt="logo" width="170">
-                    <h5 class="ms-4 d-flex justify-content-satrt">Creating a New Reality</h5>
+                    <h5 class="ms-4 d-flex text-decoration-none">Creating a New Reality</h5>
+                    <!-- </a> -->
                 </div>
 
                 <ul id="nav_open" class="nav col-auto align-items-center pt-2">
@@ -36,7 +39,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#gallery">
                             Gallery
                         </a>
                     </li>
@@ -56,10 +59,10 @@
 
 
 
-    <div class="container-fluid strip">
+    <div id="product" class="container-fluid strip py-5 ">
         <div class="container">
             <div class="row align-items-center justify-content-center">
-                <div class="col-12 col-md-7 mb-md-5 pb-md-5 mt-5 pt-5 mt-md-0 pt-md-0">
+                <div class="col-12 col-md-7 ">
                     <h1 class="display-5 mb-4">Invest in Unparalleled Learning Experiences: </h1>
                     <div class="display-1">Where Gaming
                         <br />
@@ -73,25 +76,64 @@
         </div>
     </div>
 
-    <main class="container-fluid">
+    <div class="container-fluid py-md-5 video">
         <div class="container">
             <div class="row">
+                <div class="video-container ">
+                    <video width="720" height="440" controls>
+                        <source src="/impact_app.mp4" type=video/mp4>
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main id="gallery" class="container-fluid p-md-5">
+        <div class="container">
+            <div class="photo-gallery">
+                <div class="column">
+                    <div class="photo">
+                        <img src="/images/pic1.jpeg" alt="pic">
+                    </div>
+                    <div class="photo">
+                        <img src="/images/pic10.jpeg" alt="pic">
+                    </div>
+                    <div class="photo">
+                        <img src="/images/pic12.jpeg" alt="pic">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="photo">
+                        <img src="/images/pic4.jpeg" alt="pic">
+                    </div>
+                    <div class="photo">
+                        <img src="/images/pic5.jpeg" alt="pic">
+                    </div>
+                    <div class="photo">
+                        <img src="/images/pic11.jpeg" alt="pic">
+                    </div>
+                    <div class="photo">
+                        <img src="/images/pic9.jpeg" alt="pic">
+                    </div>
+
+                </div>
+                <div class="column">
+                    <div class="photo">
+                        <img src="/images/pic7.jpeg" alt="pic">
+                    </div>
+                    <div class="photo">
+                        <img src="/images/pic8.jpeg" alt="pic">
+                    </div>
+                    <div class="photo">
+                        <img src="/images/pic15.jpeg" alt="pic">
+                    </div>
+                </div>
 
 
 
             </div>
         </div>
     </main>
-
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-
-
-
-            </div>
-        </div>
-    </div>
 </body>
 
 </html>
