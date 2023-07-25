@@ -23,6 +23,7 @@
 body {
     overflow-x: hidden;
     background: var(--bright-pink);
+    color: var(--blue-main);
 }
 
 /* scroll */
@@ -51,9 +52,9 @@ body {
 }
 
 /* iconWhatsapp */
-.iconWhatsapp{
+.iconWhatsapp {
     position: fixed;
-   z-index: 99999;
-   bottom: 40px;
-   right: 20px;
+    z-index: 99999;
+    bottom: 40px;
+    right: 20px;
 }

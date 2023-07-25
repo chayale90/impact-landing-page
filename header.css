@@ -5,6 +5,7 @@ header {
     left: 0;
     z-index: 9999;
     background: var(--bright-pink);
+ 
 }
 
 header .container,
@@ -23,7 +24,6 @@ header .row .nav li a {
     text-decoration: none;
     padding: 0;
     background: transparent;
-
 }
 
 
