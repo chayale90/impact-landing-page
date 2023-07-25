@@ -23,6 +23,7 @@ header .row .nav li a {
     text-decoration: none;
     padding: 0;
     background: transparent;
+
 }
 
 
@@ -73,7 +74,7 @@ header .row .burger {
         z-index: 9999;
         top: 0;
     }
-    
+
     header .row .nav {
         min-height: 60px;
         display: none;
@@ -88,14 +89,14 @@ header .row .burger {
         opacity: 0;
         background: var(--bright-pink);
 
-      /* border-bottom: 1px solid var(--pink1); */
+        /* border-bottom: 1px solid var(--pink1); */
 
     }
 
     header .row .nav_open {
         opacity: 100%;
         transform: translate(0, 0);
-        
+
     }
 
     header .container .row ul li {
@@ -105,7 +106,7 @@ header .row .burger {
         align-items: center;
         justify-content: center;
         transition: none;
-   /* border-top: 1px solid var(--pink1); */
+        /* border-top: 1px solid var(--pink1); */
     }
 
     header .row ul li:hover {
@@ -117,10 +118,36 @@ header .row .burger {
         width: 100%;
     }
 
+    header .row .nav li:nth-child(1) a .icon {
+        padding-right: 25px;
+
+    }
+
+    header .row .nav li:nth-child(2) a .icon {
+        padding-right: 25px;
+
+    }
+
+    header .row .nav li:nth-child(3) a .icon {
+        padding-right: 30px;
+    }
+    
+    header .row .nav li:nth-child(3) a  {
+        padding-left: 33px;
+
+    }
+    header .row .nav li:nth-child(4) a .icon {
+        padding-right: 25px;
+
+    }
+    header .row .nav li:nth-child(4) a .icon {
+        padding-left: 20px;
+
+    }
+
     header .row .burger {
         display: flex;
-        align-items:center;
+        align-items: center;
     }
 
 }
-
