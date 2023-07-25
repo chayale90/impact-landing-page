@@ -23,13 +23,13 @@ article .aboutDiv {
     color: var(--blue-main);
 }
 
-article .aboutDiv h2 {
+article .aboutDiv h2, article .aboutDiv h3{
     color: #E9B116;
 }
 
 article .aboutDiv .text {
     font-size: 18px;
-    line-height: 37px;
+    line-height: 35px;
 }
 
 article .aboutDiv .text p {
