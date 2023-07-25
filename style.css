@@ -17,10 +17,36 @@
     margin: 0;
     padding: 0;
     font-family: 'Heebo', sans-serif;
+
 }
 
 body {
     overflow-x: hidden;
     background: var(--bright-pink);
+}
+
+/* scroll */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    background: #FFFFFF;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    border: solid 1px var(--bright-pink);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #baa1fd;
+    border-radius: 10px;
+    /* border: solid 1px #0021448e; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #9376E0;
 }
 

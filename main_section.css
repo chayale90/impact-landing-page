@@ -1,5 +1,5 @@
 main {
-    background: #a05ce92b;
+    background: #f1e3ff;
 }
 
 main .container h3 {
@@ -38,7 +38,7 @@ main .photo img {
 /* section -about*/
 section {
     min-height: 300px;
-    background: #bdd7f292;
+    background: #e0efff92;
 }
 
 section .container {
@@ -59,11 +59,12 @@ section .container .box {
     border-radius: 0 40px 0 0;
     /* text-align: center; */
     align-items: center;
-    padding: 20px;
+    padding: 8px;
     justify-content: center;
     flex-direction: column;
     position: relative;
     overflow-x: visible;
+    text-align: center;
 }
 
 section .container .box:hover {
@@ -72,8 +73,8 @@ section .container .box:hover {
 
 section .container .box h3 strong {
     display: block;
-    font-size: 2.4rem;
-    margin-bottom: 5px;
+    font-size: 2.5rem;
+    margin-bottom: 6px;
 }
 
 section .container .box h3 {
@@ -107,10 +108,12 @@ section .container .box img {
     }
 }
 
-
-
 @media(max-width:767px) {
     main .photo-gallery {
         flex-direction: column;
+    }
+    section .container .box h3 strong {
+        font-size: 2rem;
+      
     }
 }
