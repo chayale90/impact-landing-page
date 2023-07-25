@@ -1,11 +1,12 @@
-article{
+article {
     min-height: 300px;
     background: #d3fed025;
 }
 
-article .container,article .container .row{
+article .container,
+article .container .row {
     min-height: inherit;
-  
+
 }
 
 
@@ -19,7 +20,11 @@ article .aboutDiv {
     box-shadow: 0px 1px 4px rgb(0, 0, 0);
     border-radius: 6px;
     padding: 20px;
-        color: var(--blue-main);
+    color: var(--blue-main);
+}
+
+article .aboutDiv h2 {
+    color: #E9B116;
 }
 
 article .aboutDiv .text {
@@ -33,7 +38,7 @@ article .aboutDiv .text p {
 
 #my_btn {
     border-radius: 50%;
-    padding:  6px 8px ;
+    padding: 6px 8px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
