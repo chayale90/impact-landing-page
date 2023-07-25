@@ -68,9 +68,10 @@ footer .container .row .circle {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 10px;
 }
 
-footer .container .row .circle h1 {
+footer .container .row .circle h2 {
     font-family: 'Playfair Display', serif;
 }
 
@@ -80,6 +81,14 @@ footer .container .row .circle h1 {
 
 footer .container .row .circle a {
     text-decoration: none;
+}
+
+footer .container .row .circle a img {
+   transition: 500ms;
+}
+
+footer .container .row .circle a img:hover {
+    transform: scale(1.2,1.2);
 }
 
 @media(max-width:767px) {
