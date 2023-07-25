@@ -57,11 +57,8 @@ section .container .box {
     width: 23%;
     display: flex;
     border-radius: 0 40px 0 0;
-    /* text-align: center; */
-    /* align-items: center; */
-    padding:45px 8px 8px 8px;
+    padding: 45px 8px 8px 8px;
     justify-content: center;
-    /* flex-direction: column; */
     position: relative;
     overflow-x: visible;
     text-align: center;
@@ -92,28 +89,22 @@ section .container .box img {
 }
 
 @media (max-width:768px) {
+    main .photo-gallery {
+        flex-direction: column;
+    }
+
     section .container .box {
         width: 45%;
     }
 
-    /* section .container .box:nth-child(3) h4 {
-        font-size: 18px;
+    section .container .box h3 strong {
+        font-size: 2rem;
+
     }
-    */
 }
 
 @media (max-width:991px) {
     section .container .box {
         width: 40%;
-    }
-}
-
-@media(max-width:767px) {
-    main .photo-gallery {
-        flex-direction: column;
-    }
-    section .container .box h3 strong {
-        font-size: 2rem;
-      
     }
 }
