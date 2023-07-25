@@ -50,3 +50,10 @@ body {
     background: #9376E0;
 }
 
+/* iconWhatsapp */
+.iconWhatsapp{
+    position: fixed;
+   z-index: 99999;
+   bottom: 40px;
+   right: 20px;
+}

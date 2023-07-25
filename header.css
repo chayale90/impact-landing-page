@@ -118,33 +118,6 @@ header .row .burger {
         width: 100%;
     }
 
-    header .row .nav li:nth-child(1) a .icon {
-        padding-right: 25px;
-
-    }
-
-    header .row .nav li:nth-child(2) a .icon {
-        padding-right: 25px;
-
-    }
-
-    header .row .nav li:nth-child(3) a .icon {
-        padding-right: 30px;
-    }
-    
-    header .row .nav li:nth-child(3) a  {
-        padding-left: 33px;
-
-    }
-    header .row .nav li:nth-child(4) a .icon {
-        padding-right: 25px;
-
-    }
-    header .row .nav li:nth-child(4) a .icon {
-        padding-left: 20px;
-
-    }
-
     header .row .burger {
         display: flex;
         align-items: center;

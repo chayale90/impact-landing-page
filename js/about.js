@@ -24,12 +24,14 @@ function declareEvents() {
             <br />
             Welcome to the world of Dan Gigi - Where Imagination Meets Reality.
             `
-            my_btn.innerHTML = `Read less`
-            // my_btn.style.background = ""
+            my_btn.innerHTML = `Hide Info 
+            <i class="fa fa-chevron-up" aria-hidden="true"></i>`
 
         } else {
             p.innerHTML = "";
-            my_btn.innerHTML = `Read more`
+            my_btn.innerHTML = `More Info
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            `
 
         }
     })

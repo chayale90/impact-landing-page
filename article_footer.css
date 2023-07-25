@@ -37,10 +37,13 @@ article .aboutDiv .text p {
 }
 
 #my_btn {
-    border-radius: 50%;
-    padding: 6px 8px;
+    border: #E9B116 1px solid;
+    padding: 8px 12px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    color: #E9B116;
+
 }
+
 
 @media(max-width:767px) {
     article .aboutDiv .text {
