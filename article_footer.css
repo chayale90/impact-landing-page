@@ -12,6 +12,7 @@ article .container .row {
 /* aside */
 article .aboutDiv img {
     border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 article .aboutDiv {
@@ -21,7 +22,8 @@ article .aboutDiv {
     color: var(--blue-main);
 }
 
-article .aboutDiv h2, article .aboutDiv h3{
+article .aboutDiv h2,
+article .aboutDiv h3 {
     color: #E9B116;
 }
 
@@ -36,10 +38,10 @@ article .aboutDiv .text p {
 
 #my_btn {
     border: #E9B116 1px solid;
-    padding: 8px 12px;
+    padding: 6px 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     color: #E9B116;
-
+    font-size: 1.1rem;
 }
 
 /* footer */
@@ -85,11 +87,11 @@ footer .container .row .circle a {
 }
 
 footer .container .row .circle a img {
-   transition: 500ms;
+    transition: 500ms;
 }
 
 footer .container .row .circle a img:hover {
-    transform: scale(1.2,1.2);
+    transform: scale(1.2, 1.2);
 }
 
 @media(max-width:767px) {
