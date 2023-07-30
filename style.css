@@ -62,8 +62,8 @@ body {
 
 /* icon nagishLi design*/
 #NagishLiTrigger {
-    bottom: 20px;
-    /* top:10px; */
+    /* bottom: 70px; */
+    top: 80px;
     right: none;
     left: 5px;
     transform: scale(0.7, 0.7);
